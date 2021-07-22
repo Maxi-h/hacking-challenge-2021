@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+.Content2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.Group12 {
+    background: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 20%;
+}
+
+.Group22 {
+    background: white;
+    /* padding-top: 66px; */
+}
+
+.GridGroup2 {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 40% 60%;
+    margin: 0 auto;
+    height: 100vh;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.GridG2IIc {
+    /* background-color: rgba(127, 255, 212, 0.089); */
+    align-content: flex-end;
+    padding-left: 20%;
+    padding-right: 8.5%;
+    align-items: flex-end;
+    display: grid;
+}
+
+.GridG2Ic {
+    /* background-color: blanchedalmond; */
+    align-content: flex-end;
+    align-items: flex-end;
+    display: grid;
+    padding-bottom: 15px;
+}
+
+.GridG2IIIc {
+    /* background-color: thistle; */
+    padding-left: 20%;
+    display: grid;
+    align-content: flex-start;
+    align-items: flex-start;
+    /* padding-bottom: 15px; */
+}
+
+.GridG2IVc {
+    background-color: white;
+}
+/* .GridGroup2 div:nth-child(1){
+    height: 45%;
+} */
+
+
+.IncreaseH22 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    color: #494F66;
+}
+
+.IncreaseH42 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #676F8F;
+    margin-bottom: 32px;
+}
+
+.IncreaseH52 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #A3ABCC;
+}
+
+.Back {
+    display: grid;
+    grid-template-columns: 40px 30px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.BackButton {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #FC606B;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.BackButtonTop {
+    display: none;
+}
+.HelpText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #494F66;
+}
+
+.Divider {
+    width: 190px;
+    height: 1px;
+    background-color: #E4E8F7;
+    /* border: 0.5px solid #E4E8F7; */
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.BigDivider {
+    width: 80%;
+    height: 1px;
+    background-color: #E4E8F7;
+    /* border: 0.5px solid #E4E8F7; */
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.QuestionContent {
+    display: flex;
+}
+
+.QuestionContentText {
+    margin-right: 36px;
+}
+
+.QuestionText  {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    width: 110px;
+    letter-spacing: 0.2px;
+    color: #494F66;
+    
+}
+
+.QuestionText2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #494F66;
+}
+
+.IconCar {
+    background-image: url('../../images/icon_car.svg');
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    /* margin-top: 20px; */
+    background-position: center;
+    background-size: contain;
+}
+
+.ClickHere {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    color: #6F7DFF;
+    margin-top: 16px;
+}
+
+.GroupedContent {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    align-items: center;
+}
+
+.CounterContent {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CounterGroup {
+    width: 180px;
+    height: 56px;
+    left: 728px;
+    top: 549px;
+
+    /* Gray_4 */
+
+    border: 1px solid #C5CBE0;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.RadioButtonGroup {
+    display: flex;
+    /* background: aqua; */
+    justify-content: flex-end;
+}
+
+.ButtonCounter {
+    background-color: rgba(245, 245, 220, 0);
+    border: 0px solid;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    font-weight: normal;
+    font-size: 25px;
+    color: #6F7DFF;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4px;
+}
+.ButtonCounter:hover {
+    /* box-shadow: 1px 2px 4px 1px rgba(255, 48, 48, 0.2), 0 2px 5px 0 rgba(248, 137, 137, 0.719); */
+    background-color:azure;
+    /* cursor: pointer; */
+}
+.Space {
+    width: 30px
+}
+
+.VrtDivider {
+    width: 1px;
+    height: 16px;
+    background: #E4E8F7;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.Text {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #494F66;
+
+}
+
+.MinMaxTextContent {
+    display: flex;
+}
+
+.MinMaxText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #676F8F;
+    
+}
+
+.StepContent {
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+
+}
+
+.StepNumber {
+    width: 26.5px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    padding-right: 1px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C5CBE0;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #C5CBE0;
+    margin-right: 24px;
+}
+
+.StepNumberPassed {
+    background-color: #6F7DFF;
+    color: white;
+}
+
+.StepText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #A3ABCC;
+}
+
+.StepTextPassed {
+    color: #494F66;
+    font-weight: bold;
+}
+
+.ProgressLine {
+    border: 2px dashed #E4E8F7;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 11px;
+    /* border-style: dotted; */
+}
+
+.ProgressLine2 {
+    display: none;
+}
+/*  */
+
+
+.radio-label {
+    display: inline-block;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #494F66;
+  }
+  .radio-label:hover {
+    cursor: pointer;
+  }
+  
+  input[type=radio].radio {
+    opacity: 0;
+    position: absolute;
+  }
+  input[type=radio] + .radio-label:before {
+    content: "";
+    background: #fff;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    margin-right: 1em;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+  }
+  input[type=radio]:checked + .radio-label:before {
+    background-color: #43B748;
+    box-shadow: inset 0 0 0 4px #fff;
+  }
+  input[type=radio]:focus + .radio-label:before {
+    outline: none;
+    border-color: #43B748;
+  }
+  input[type=radio] + .radio-label:empty:before {
+    margin-right: 0;
+  }
+  
+  
+  /* .radio-label {
+    margin-bottom: 1em;
+  } */
+
+/*  */
+
+
+.CustomDropdown {
+    /* width: 80%; */
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #C5CBE0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px 10px 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 15px;
+}
+
+.DropDownIcon {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DropDownContent {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    margin-right: 5px;
+}
+.DropDownContent:hover, .DropDownIcon:hover {
+    cursor: pointer;
+}
+
+.DropDownString {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    color: #494F66;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #A3ABCC;
+
+}
+
+.Footer {
+    display: none;
+    
+}
+
+.Step2 {
+    display: none;
+}
+
+
+@media (min-width: 21px) and (max-width: 559px) {
+    .Content2 {
+        grid-template-columns: none;
+    }
+
+    .GridGroup2 {
+        display: initial;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    .Group12 {
+        background: #ffffff;
+        border-bottom: 1px solid #F0F2FA;
+        display: block;
+        flex-direction: row;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 17%
+    }
+    .Group22{
+        padding-top: 30px;
+    }
+    .Back {
+        display: none;
+    }
+    .None {
+        display: none;
+    }
+
+    .StepTextPassed {
+        font-size: 10px;
+        width: 60px;
+        font-weight: bold;
+        /* background: aqua; */
+    }
+    .Step2 {
+        display: flex;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        align-items: center;
+    }
+
+    .ProgressLine2 {
+        display: flex;
+        margin-left: 10px;
+        height: 6px;
+        width: 70%;
+        border-radius: 4px;
+        background-color: #E4E8F7
+    }
+
+    .ProgressLineChild {
+        height: 6px;
+        
+        border-radius: 4px;
+        background-color: #6F7DFF
+    }
+
+    .ProgressLineChild1 {
+        width: 40%;
+    }
+
+    .ProgressLineChild2 {
+        width: 100%;
+    }
+
+    .BackButtonTop {
+        width: 26px;
+        height: 26px;
+        border: 1px solid #F0F2FA;
+        box-sizing: border-box;
+        border-radius: 12px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        margin-right: 10px;
+        content: "eqweqw";
+    }
+    .GridG2IIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    .GridG2Ic {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    .GridG2IIIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    .HelpText {
+        display: none;
+    }
+    .Divider {
+        display: none;
+    }
+    .QuestionContent {
+        /* background-color: aquamarine; */
+        flex-direction: row-reverse;
+        width: 100%;
+        height: 80px;
+        left: 32px;
+        top: 400px;
+        align-items: center;
+        background: #F7F8FC;
+        border-radius: 8px;
+        justify-content: flex-end
+    }
+    .QuestionContentText {
+        margin-right: 0px;
+        margin-left: 16px;
+    }
+    .QuestionText {
+        width: 100%
+    }
+
+    .IconCar {
+        margin-left: 16px
+    }
+
+    .ClickHere {
+        margin-top: 5px
+    }
+
+    .GroupedContent {
+
+        padding-bottom: 10px;
+        padding-top: 10px;
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+    }
+    .Text {
+        margin-bottom: 10px
+    }
+    .CounterContent {
+        display: contents;
+    }
+    .CounterGroup {
+        width: 100%;
+        margin-top: 24px;
+        justify-content: space-between;
+    }
+    .ButtonCounter {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .TotalContent {
+        margin-right: 10px;
+    }
+    .Total {
+        width: 110px
+    }
+    .Footer {
+        border-top: 1px solid #E4E8F7;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 7.5%;
+        display: flex;
+        align-items: center;
+        margin-top: 56px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #A3ABCC;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 900px) {
+    .Group22{
+        padding-top: 60px;
+    }
+
+    .GridG2IIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+
+    .GridG2IIIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    .GroupedContent {
+        grid-template-columns: 45% 50%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    .Text {
+        letter-spacing: 0px;
+    }
+
+    input[type=radio] + .radio-label:before {
+        
+        margin-right: 0.5em;
+    }
+    .Space {
+        width: 15px
+    }
+    .MinMaxText {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .CounterGroup {
+        width: auto !important;
+        height: 46;
+        left: 0px;
+        top: 0px;
+    }
+
+    .GridGroup2{
+        padding-top: 60px;
+    }
+
+    
+}
+
+
+@media (min-width: 901px) and (max-width: 999px) {
+
+    .GridGroup2{
+        padding-top: 60px;
+    }
+    .Group22{
+        padding-top: 60px;
+    }
+
+    .GridG2IIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+
+    .GridG2IIIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    .GroupedContent {
+        grid-template-columns: 45% 50%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        
+    }
+    .Text {
+        letter-spacing: 0px;
+    }
+
+    input[type=radio] + .radio-label:before {
+        
+        margin-right: 0.5em;
+    }
+    .Space {
+        width: 15px
+    }
+    .MinMaxText {
+        font-size: 9px;
+        line-height: 9px;
+    }
+
+    .CounterGroup {
+        width: auto !important;
+        height: 46;
+        left: 0px;
+        top: 0px;
+    }
+
+    
+}
+

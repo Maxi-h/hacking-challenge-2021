@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+.Content2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.Group12 {
+    background: #F7F8FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    padding-top: 20%;
+}
+
+.Group32 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 100vh;
+}
+.SubGroup321 {
+    
+    padding-top: 15%;
+    overflow-y: scroll;
+}
+
+.PlanCard { 
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.SubGroup321::-webkit-scrollbar {
+    display: none;
+}
+
+.SubGroup321{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.CardView {
+    height: 180px;
+    width: 100%;
+    border: 3px solid #F0F2FA;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.TextContentCard {
+    margin-left: 32px;
+}
+
+.Number {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #A3ABCC;
+    margin-bottom: 4px
+}
+
+.NameCar {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #494F66;
+    width: 160px;
+    margin-bottom: 4px
+}
+.CarTitle {
+    display: grid;
+    grid-template-columns: 140px 80px;
+    align-items: flex-start;
+}
+
+.Edit {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #6F7DFF;
+    margin-top: 12px;
+}
+
+.ImageCardView {
+    background-image: url('../../images/person234.svg');
+    width: 120px;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 19px;
+}
+
+.AddRemove{
+
+    padding-top: 64px;
+    padding-bottom: 16px
+}
+
+.AddRemoveText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #494F66;
+    margin-right: 30px;
+}
+
+.ImageContent {
+    height: 44px;
+    width: 44px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 30px;
+    padding: 3.21px
+}
+
+.Image31 {
+    background-image: url('../../images/image31.svg');
+}
+
+.Image32 {
+    background-image: url('../../images/image32.svg');
+}
+
+.Image33 {
+    background-image: url('../../images/image33.svg');
+}
+
+.Expandable {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 15% 85%;
+}
+.ExpandableHeader {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.HeaderTabView {
+    width: 90px;
+    padding: 8px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    
+    color: #494F66;;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.HeaderTabViewContent {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.HeaderTabViewTouched {
+    color: #EF3340;
+}
+
+.HeaderLine {
+    display: flex;
+    height: 1.5px;
+    width: 100%;
+    background: #E4E8F7;
+}
+
+.Touched {
+    height: 3px;
+    width: 33.33%;
+    background: #EF3340;
+    margin-bottom: 6.5px;
+}
+
+.AddRemove {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.RemoveText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #6F7DFF;
+}
+
+.RemoveButton {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #939DFF;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.ShowLessMoreContent{
+    display: none;
+}
+
+.ShowLessMoreText {
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    
+}
+
+.ShowLessColor {
+    color: #A3ABCC;
+}
+
+.ShowMoreColor {
+    
+    color: #6F7DFF;
+}
+
+
+.TextH5 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #676F8F;
+}
+
+.BigDivider2 {
+    width: 100%;
+    height: 1px;
+    background-color: #E4E8F7;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+
+
+.SubGroup322 {
+    background-color: white
+}
+.Empty {
+    height: 27%
+}
+
+.TotalContentGlobal {
+    display: flex;
+}
+.TotalContent {
+    margin-right: 60px;
+    margin-top: 5px;
+}
+.Total {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.2px;
+    color: #494F66;
+
+}
+.Month {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #676F8F;
+}
+
+.ImageShield {
+    height: 64px;
+    width: 64px;
+    background-image: url('../../images/shield.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 30px;
+    padding: 3.21px
+
+    
+}
+
+.CheckList {
+    display: grid;
+    grid-template-columns: 34px 220px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.ABC {
+    height: 40px;
+    background-color: beige;
+    margin-top: 10px;
+    width: 100%
+}
+
+.Back {
+    display: grid;
+    grid-template-columns: 40px 30px;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.BackButton {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #FC606B;
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.BackButtonTop {
+    display: none;
+}
+
+
+.IconCar {
+    background-image: url('../../images/icon_car.svg');
+    height: 64px;
+    width: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.StepContent {
+    width: 50%;
+    display: flex;
+
+}
+
+.StepNumber {
+    width: 26.5px;
+    border-radius: 50%;
+    display: flex;
+    padding-right: 1px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C5CBE0;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #C5CBE0;
+    margin-right: 24px;
+}
+
+.StepNumberPassed {
+    background-color: #6F7DFF;
+    color: white;
+}
+
+.StepText {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #A3ABCC;
+}
+
+.StepTextPassed {
+    color: #494F66;
+    font-weight: bold;
+}
+
+.ProgressLine {
+    border: 2px dashed #E4E8F7;
+    box-sizing: border-box;
+    height: 40px;
+    width: 0px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 11px;
+}
+
+.ProgressLine2 {
+    display: none;
+}
+
+.Footer {
+    display: none;
+    
+}
+
+.Step2 {
+    display: none;
+}
+
+.NoToggle {
+    display: none;
+}
+
+
+@media (min-width: 21px) and (max-width: 559px) {
+    .Content2 {
+        grid-template-columns: none;
+    }
+
+    .Group32 {
+        display: initial;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    
+    .PlanCard {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    .PlanCardColor {
+        background-color: #F7F8FC
+    }
+
+    .ShowLessMoreContent{
+        margin-top: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ExpandableHeader {
+        align-items: flex-start;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 80% 54px;
+    }
+
+    .AddRemove {
+        padding-top: 20px;
+    }
+
+    .SubGroup321 {
+        padding-top: 0px
+    }
+
+    .CardView {
+        border: 1px solid #f0f2fa70;
+    }
+
+    .GridGroup2 {
+        display: initial;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    .Group12 {
+        background: #ffffff;
+        border-bottom: 1px solid #F0F2FA;
+        display: block;
+        flex-direction: row;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        padding-top: 17%
+    }
+    .Group22{
+        padding-top: 30px;
+    }
+    .Back {
+        display: none;
+    }
+    .None {
+        display: none;
+    }
+
+    .Number {
+        font-size: 12px;
+    }
+    
+    .NameCar {
+        font-size: 20px;
+        width: 160px;
+    }
+
+    .NoIcon {
+        display: none;
+    }
+
+    .NoToggle {
+        display: contents;
+        margin-left: 10px;
+    }
+
+    .StepTextPassed {
+        font-size: 10px;
+        width: 60px;
+        font-weight: bold;
+    }
+    .Step2 {
+        display: flex;
+        margin-top: 12.5px;
+        margin-bottom: 12.5px;
+        align-items: center;
+    }
+
+    .ProgressLine2 {
+        display: flex;
+        margin-left: 10px;
+        height: 6px;
+        width: 70%;
+        border-radius: 4px;
+        background-color: #E4E8F7
+    }
+
+    .ProgressLineChildComplete {
+        height: 6px;
+        width: 100%;
+        border-radius: 4px;
+        background-color: #6F7DFF
+    }
+
+    .BackButtonTop {
+        width: 26px;
+        height: 26px;
+        border: 1px solid #F0F2FA;
+        box-sizing: border-box;
+        border-radius: 12px;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        margin-right: 10px;
+        content: "eqweqw";
+    }
+    .GridG2IIc {
+        padding-left: 7.5%;
+        padding-right: 7.5%
+    }
+    
+    
+
+    .IconCar {
+        margin-left: 16px
+    }
+
+    .ImageShield {
+        display: none
+    }
+
+    .Details {
+        display: none;
+    }
+
+    .CarTitle {
+        display: contents;
+        grid-template-columns: none;
+    }
+
+    .SubGroup322 {
+        padding: 0px 7.5% 20px 7.5%;
+        display: flex;
+        align-items: flex-end;
+        box-shadow: 0px 1px 4px rgba(163, 171, 204, 0.06), 0px 8px 30px rgba(20, 43, 127, 0.1);
+    }
+    .Btn-Cot {
+        margin-top: 20px;
+    }
+    .Footer {
+        border-top: 1px solid #E4E8F7;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 7.5%;
+        display: flex;
+        align-items: center;
+        margin-top: 56px;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #A3ABCC;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 900px) {
+    .Group22{
+        padding-top: 60px;
+
+    }
+
+    .PlanCard {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .IncreaseH42 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        padding-bottom: 2px;
+    }
+    .IncreaseH22 {
+        margin-top: 1px;
+        font-size: 28px;
+        font-weight: bold
+    }
+    .IncreaseH52 {
+        font-size: 9px;
+        font-weight: bold
+    }
+
+    .SubGroup321 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 70px;
+    }
+
+    .Back {
+        margin-bottom: 0px;
+    }
+    .AddRemove {
+        margin-top: 0px;
+        padding-top: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 5px;
+    }
+    .HeaderTabView {
+        padding-top: 10px
+    }
+    .TotalContent {
+        margin-top: 2.5px;
+        margin-right: 20px;
+    }
+    .TotalContentGlobal {
+        align-items: center;
+    }
+
+    .ImageShield {
+        height: 50px;
+        width: 540x;
+        margin-right: 0px;
+        padding: 1.21px
+    }
+
+    .Total {
+        font-size: 20px;
+        line-height: 22px
+    }
+    .Month {
+        font-size: 10px;
+        line-height: 12px
+    }
+    .Divider {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .Text {
+        font-size: 15px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+
+    .CheckList {
+        grid-template-columns: 24px 180px;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+
+    .TextH5 {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 0px;
+    }
+
+    .Btn-Cot {
+        margin-top: 10px
+    }
+
+    .Empty {
+        height: 23%
+    }
+}
+
